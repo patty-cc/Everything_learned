@@ -1,0 +1,33 @@
+.movie-box {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 20%;
+  padding: 0 5px 0 5px;
+  background-color: lightgrey;
+}
+
+.movies {
+  margin-bottom: 5px;
+}
+
+.movies a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.link {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.movie-button {
+  background-color: dodgerblue;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+.movie-button a{
+  color: white;
+  text-decoration: none;
+}

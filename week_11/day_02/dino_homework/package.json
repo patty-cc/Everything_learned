@@ -1,0 +1,11 @@
+{
+  "name": "dino_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dinosaur.js",
+  "scripts": {
+    "test": "mocha specs"
+  },
+  "author": "",
+  "license": "ISC"
+}

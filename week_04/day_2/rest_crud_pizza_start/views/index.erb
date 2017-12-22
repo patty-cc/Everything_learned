@@ -1,0 +1,15 @@
+<div class="order_all">
+  <h1>All Pizzas</h1>
+
+    <div class="order">
+      <% for pizza in @pizzas do %>
+
+      <p>Name: <%= pizza.pretty_name() %></p>
+      <p>Order: <%= pizza.quantity %> x <%= pizza.topping %></p>
+      <p><a href="/pizzas/<%= pizza.id %>">Show Order</a></p>
+      <p><a href="/pizzas/<%= pizza.id %>/edit">Edit Order</a></p>
+
+      <div class="line"></div>
+      <% end %>
+    </div>
+</div>
